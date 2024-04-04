@@ -89,6 +89,14 @@ class SocialMediaButton extends StatelessWidget {
     this.color,
   });
 
+  const SocialMediaButton.twitterX({
+    this.iconData = SocialMediaIcons.twitterX,
+    this.url,
+    this.size = 24,
+    this.onTap,
+    this.color,
+  });
+
   const SocialMediaButton.google({
     this.iconData = SocialMediaIcons.google,
     this.url,

@@ -27,9 +27,9 @@ class MyApp extends StatelessWidget {
               size: 35,
               color: Colors.blue,
             ),
-            SocialMediaButton.github(
+            SocialMediaButton.twitterX(
               onTap: () {
-                print('onTap ');
+                print('onTap twitter x');
               },
             ),
             SocialMediaButton.stackoverflow(
